@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  
+  :root {
+    --background: 255 255 255; 
+    --foreground: 15 23 42;   
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+}
