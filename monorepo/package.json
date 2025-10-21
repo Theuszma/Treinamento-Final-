@@ -1,0 +1,13 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "install": "pnpm install",
+    "dev:web": "pnpm --filter web dev"
+  },
+  "devDependencies": {}
+}
